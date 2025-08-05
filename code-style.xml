@@ -34,6 +34,7 @@
     <option name="ALLOW_TRAILING_COMMA_TYPE_ARGUMENT_LIST" value="true" />
     <option name="ALLOW_TRAILING_COMMA_INDICES" value="true" />
     <option name="ALLOW_TRAILING_COMMA_VALUE_ARGUMENT_LIST" value="true" />
+    <option name="BLANK_LINES_BEFORE_DECLARATION_WITH_COMMENT_OR_ANNOTATION_ON_SEPARATE_LINE" value="0" />
   </JetCodeStyleSettings>
   <Markdown>
     <option name="WRAP_TEXT_IF_LONG" value="false" />
@@ -151,7 +152,7 @@
     <option name="LINE_COMMENT_ADD_SPACE_ON_REFORMAT" value="true" />
     <option name="KEEP_FIRST_COLUMN_COMMENT" value="false" />
     <option name="KEEP_BLANK_LINES_IN_DECLARATIONS" value="1" />
-    <option name="KEEP_BLANK_LINES_IN_CODE" value="0" />
+    <option name="KEEP_BLANK_LINES_IN_CODE" value="1" />
     <option name="KEEP_BLANK_LINES_BEFORE_RBRACE" value="0" />
     <option name="ALIGN_MULTILINE_PARAMETERS" value="false" />
     <option name="EXTENDS_LIST_WRAP" value="5" />
