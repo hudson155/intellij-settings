@@ -1,16 +1,16 @@
 # IntelliJ Settings
 
-## Code style
-
-[code-style.xml](./code-style.xml)
-
-### Support
-
 #### IntelliJ version
 
 ```plaintext
 2025.2
 ```
+
+## Code style
+
+[code-style.xml](./code-style.xml)
+
+### Support
 
 #### Supported
 
@@ -47,3 +47,7 @@
 - ❌ Vue template
 - ❌ XML
 - ❌ YAML
+
+### Inspections
+
+[inspections.xml](./inspections.xml)

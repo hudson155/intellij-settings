@@ -100,6 +100,20 @@
   <yaml>
     <option name="SEQUENCE_ON_NEW_LINE" value="true" />
   </yaml>
+  <codeStyleSettings language="Declarative">
+    <indentOptions>
+      <option name="INDENT_SIZE" value="2" />
+      <option name="CONTINUATION_INDENT_SIZE" value="2" />
+      <option name="TAB_SIZE" value="2" />
+    </indentOptions>
+  </codeStyleSettings>
+  <codeStyleSettings language="HCL">
+    <option name="SPACE_WITHIN_BRACES" value="true" />
+    <indentOptions>
+      <option name="CONTINUATION_INDENT_SIZE" value="2" />
+      <option name="TAB_SIZE" value="2" />
+    </indentOptions>
+  </codeStyleSettings>
   <codeStyleSettings language="HCL-Terraform">
     <option name="KEEP_BLANK_LINES_IN_CODE" value="1" />
     <option name="SPACE_WITHIN_BRACES" value="true" />
