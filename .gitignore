@@ -1,0 +1,14 @@
+# File types
+*.bak
+*.bat
+*.dump
+*.log*
+*.pem
+*.swp
+
+# Misc
+.DS_Store
+
+# IntelliJ
+*/**/.idea/
+!/.idea/
