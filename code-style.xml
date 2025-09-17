@@ -13,9 +13,39 @@
     <option name="OBJECT_WRAPPING" value="5" />
     <option name="ARRAY_WRAPPING" value="5" />
   </HCL-Terraform>
+  <HoconCodeStyleSettings>
+    <option name="OBJECTS_WRAP" value="5" />
+    <option name="LISTS_WRAP" value="5" />
+    <option name="LISTS_NEW_LINE_AFTER_LBRACKET" value="true" />
+    <option name="LISTS_RBRACKET_ON_NEXT_LINE" value="true" />
+    <option name="KEEP_BLANK_LINES_IN_OBJECTS" value="0" />
+    <option name="KEEP_BLANK_LINES_IN_LISTS" value="0" />
+    <option name="KEEP_BLANK_LINES_BEFORE_RBRACE" value="0" />
+    <option name="KEEP_BLANK_LINES_BEFORE_RBRACKET" value="0" />
+  </HoconCodeStyleSettings>
   <JSON>
     <option name="ARRAY_WRAPPING" value="5" />
   </JSON>
+  <JavaCodeStyleSettings>
+    <option name="CLASS_NAMES_IN_JAVADOC" value="3" />
+    <option name="LAYOUT_STATIC_IMPORTS_SEPARATELY" value="false" />
+    <option name="LAYOUT_ON_DEMAND_IMPORT_FROM_SAME_PACKAGE_FIRST" value="false" />
+    <option name="PRESERVE_MODULE_IMPORTS" value="false" />
+    <option name="DELETE_UNUSED_MODULE_IMPORTS" value="true" />
+    <option name="USE_FQ_CLASS_NAMES" value="true" />
+    <option name="USE_SINGLE_CLASS_IMPORTS" value="false" />
+    <option name="INSERT_INNER_CLASS_IMPORTS" value="true" />
+    <option name="IMPORT_LAYOUT_TABLE">
+      <value>
+        <package name="" withSubpackages="true" static="false" module="true" />
+        <package name="" withSubpackages="true" static="false" />
+        <emptyLine />
+        <package name="javax" withSubpackages="true" static="false" />
+        <package name="java" withSubpackages="true" static="false" />
+        <emptyLine />
+      </value>
+    </option>
+  </JavaCodeStyleSettings>
   <JetCodeStyleSettings>
     <option name="PACKAGES_TO_USE_STAR_IMPORTS">
       <value />
@@ -95,6 +125,12 @@
     <option name="PRIMARY_KEY_NAME_TEMPLATE" value="pk__{table}" />
     <option name="FOREIGN_KEY_NAME_TEMPLATE" value="fk__{table}__{columns}" />
   </SqlCodeStyleSettings>
+  <XML>
+    <option name="XML_ATTRIBUTE_WRAP" value="4" />
+    <option name="XML_TEXT_WRAP" value="0" />
+    <option name="XML_KEEP_BLANK_LINES" value="1" />
+    <option name="XML_WHITE_SPACE_AROUND_CDATA" value="1" />
+  </XML>
   <editorconfig>
     <option name="ENABLED" value="false" />
   </editorconfig>
@@ -109,6 +145,7 @@
     </indentOptions>
   </codeStyleSettings>
   <codeStyleSettings language="HCL">
+    <option name="KEEP_BLANK_LINES_IN_CODE" value="1" />
     <option name="SPACE_WITHIN_BRACES" value="true" />
     <indentOptions>
       <option name="CONTINUATION_INDENT_SIZE" value="2" />
@@ -122,6 +159,9 @@
       <option name="CONTINUATION_INDENT_SIZE" value="2" />
       <option name="TAB_SIZE" value="2" />
     </indentOptions>
+  </codeStyleSettings>
+  <codeStyleSettings language="HOCON">
+    <option name="SPACE_WITHIN_BRACES" value="true" />
   </codeStyleSettings>
   <codeStyleSettings language="JSON">
     <option name="SPACE_WITHIN_BRACES" value="true" />
@@ -145,6 +185,16 @@
       <option name="TAB_SIZE" value="2" />
     </indentOptions>
   </codeStyleSettings>
+  <codeStyleSettings language="XML">
+    <option name="LINE_COMMENT_AT_FIRST_COLUMN" value="false" />
+    <option name="BLOCK_COMMENT_AT_FIRST_COLUMN" value="false" />
+    <option name="FORCE_REARRANGE_MODE" value="1" />
+    <indentOptions>
+      <option name="INDENT_SIZE" value="2" />
+      <option name="CONTINUATION_INDENT_SIZE" value="2" />
+      <option name="TAB_SIZE" value="2" />
+    </indentOptions>
+  </codeStyleSettings>
   <codeStyleSettings language="kotlin">
     <option name="LINE_COMMENT_AT_FIRST_COLUMN" value="false" />
     <option name="BLOCK_COMMENT_AT_FIRST_COLUMN" value="false" />
@@ -159,7 +209,7 @@
     <option name="METHOD_CALL_CHAIN_WRAP" value="5" />
     <option name="WRAP_FIRST_METHOD_IN_CALL_CHAIN" value="true" />
     <option name="ASSIGNMENT_WRAP" value="5" />
-    <option name="PARAMETER_ANNOTATION_WRAP" value="2" />
+    <option name="PARAMETER_ANNOTATION_WRAP" value="5" />
     <option name="VARIABLE_ANNOTATION_WRAP" value="2" />
     <option name="ENUM_CONSTANTS_WRAP" value="5" />
     <indentOptions>
