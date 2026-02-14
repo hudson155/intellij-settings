@@ -182,6 +182,7 @@
     <option name="insideTryAllowed" value="false" />
   </inspection_tool>
   <inspection_tool class="HtmlMissingClosingTag" enabled="true" level="WARNING" enabled_by_default="true" editorAttributes="WARNING_ATTRIBUTES" />
+  <inspection_tool class="HtmlRequiredTitleElement" enabled="true" level="INFORMATION" enabled_by_default="true" editorAttributes="INFORMATION_ATTRIBUTES" />
   <inspection_tool class="HtmlTagCanBeJavadocTag" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="IOResource" enabled="true" level="WARNING" enabled_by_default="true">
     <option name="ignoredTypesString" value="java.io.ByteArrayOutputStream,java.io.ByteArrayInputStream,java.io.StringBufferInputStream,java.io.CharArrayWriter,java.io.CharArrayReader,java.io.StringWriter,java.io.StringReader" />
@@ -247,6 +248,7 @@
   <inspection_tool class="LambdaParameterHidingMemberVariable" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="LengthOneStringInIndexOf" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="LengthOneStringsInConcatenation" enabled="true" level="WARNING" enabled_by_default="true" editorAttributes="WARNING_ATTRIBUTES" />
+  <inspection_tool class="LiftReturnOrAssignment" enabled="true" level="INFORMATION" enabled_by_default="true" editorAttributes="INFORMATION_ATTRIBUTES" />
   <inspection_tool class="LimitedScopeInnerClass" enabled="true" level="WARNING" enabled_by_default="true" editorAttributes="WARNING_ATTRIBUTES" />
   <inspection_tool class="ListenerMayUseAdapter" enabled="true" level="WARNING" enabled_by_default="true">
     <option name="checkForEmptyMethods" value="true" />
@@ -400,6 +402,7 @@
   <inspection_tool class="ReadResolveAndWriteReplaceProtected" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="RecordStoreResource" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="RedundantElseInIf" enabled="true" level="WEAK WARNING" enabled_by_default="true" editorAttributes="INFO_ATTRIBUTES" />
+  <inspection_tool class="RedundantExplicitType" enabled="true" level="WARNING" enabled_by_default="true" editorAttributes="WARNING_ATTRIBUTES" />
   <inspection_tool class="RedundantImplements" enabled="true" level="WARNING" enabled_by_default="true">
     <option name="ignoreSerializable" value="false" />
     <option name="ignoreCloneable" value="false" />
@@ -527,7 +530,6 @@
   <inspection_tool class="TypeParameterExtendsFinalClass" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="UnclearBinaryExpression" enabled="true" level="WEAK WARNING" enabled_by_default="true" editorAttributes="INFO_ATTRIBUTES" />
   <inspection_tool class="UnconditionalWait" enabled="true" level="WARNING" enabled_by_default="true" />
-  <inspection_tool class="UndeclaredKoinUsage" enabled="false" level="ERROR" enabled_by_default="false" />
   <inspection_tool class="UnknownGuard" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="UnnecessarilyQualifiedInnerClassAccess" enabled="true" level="WARNING" enabled_by_default="true" editorAttributes="WARNING_ATTRIBUTES">
     <option name="ignoreReferencesNeedingImport" value="true" />
